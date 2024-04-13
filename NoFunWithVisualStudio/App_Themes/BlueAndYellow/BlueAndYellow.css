@@ -4,4 +4,100 @@
 
 
 body {
+    /*
+        Clears white space around the body and assigns it BodyBackgroud.jpg as the backgroud image.
+        The image is repeated once horizontally, so the remaining background gets #b3e2e7 as its color.
+    */
+    margin: 0;
+    background-image: url(Images/BodyBackground.jpg);
+    background-repeat: repeat-x;
+    background-color: #b3e2e7;
+}
+
+a{
+    /*Clears the underline on normal links, and give them #da6637 as the color.*/
+    color: #da6637;
+    text-decoration: none;
+}
+
+a:hover
+{
+    /* Underlines links when the users hover the mouse over them */
+    text-decoration: underline;
+}
+
+h1{
+    /* makes h1 elements smaller than their browser default*/
+    font-size: 20px;
+}
+.Introduction
+{
+    font-style: italic;
+
+
+#PageWrapper
+{
+    /*Sets the total width for the entire page*/
+    width: 984px;
+}
+
+#Header 
+{
+    /*Gives the header the same width as the PageWrapper. The height creates some room for the logo.*/
+    width: 984px;
+    height: 131px;
+}
+
+.HeaderLink
+{
+    /* 
+        The .HeaderLink is nested in the #Header. It provides a link to the homepage, and sets the header image back ground
+        margin: auto puts the link (with a width of 278) right in the middle of #Header
+    */
+    background-image: url(Images/Header.jpg);
+    background-repeat: no-repeat;
+    width: 278px;
+    height: 131px;
+    display: block;
+    margin: auto;
+}
+
+#MenuWrapper
+{
+    /*
+        Floats the entire menu on the left of the content. And sets a background image for the menu.
+    */
+    width: 180px;
+    padding-top: 4px;
+    float: left;
+    padding: 10px;
+    background-image: url(Images/MenuBackground.jpg)
+}
+
+#MainContent
+{
+    color: yellow;
+    font-size: 0.8em;
+    width: 600px;
+    min-height: 500px;
+    padding: 10px;
+    padding-top: 0;
+    float: left;
+}
+
+#Sidebar
+{
+    font-size: 0.8em;
+    width: 164px;
+    color: yellow;
+    float: left;
+    background-image: url(Images/Sidebar.jpg);
+}
+
+#Footer
+{
+    text-align:center;
+    border-top: 2px dashed gray;
+    height: 37px;
+    clear: both;
 }
