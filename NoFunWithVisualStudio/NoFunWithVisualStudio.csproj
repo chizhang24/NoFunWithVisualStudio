@@ -122,6 +122,7 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Contact.aspx" />
+    <Content Include="ContentPages\Login.aspx" />
     <Content Include="ContentPages\MyCalculator.aspx" />
     <Content Include="ContentPages\MyCalendar.aspx" />
     <Content Include="ContentPages\MySecondCalculator.aspx" />
@@ -142,6 +143,7 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Default.aspx" />
     <Content Include="OLD_Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -209,6 +211,9 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Code\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="App_Code\Calculator.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
@@ -225,6 +230,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContentPages\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContentPages\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="ContentPages\MyCalculator.aspx.cs">
       <DependentUpon>MyCalculator.aspx</DependentUpon>
@@ -246,6 +258,13 @@
     </Compile>
     <Compile Include="ContentPages\MySecondCalculator.aspx.designer.cs">
       <DependentUpon>MySecondCalculator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPages\FirstMasterPage.Master.cs">
       <DependentUpon>FirstMasterPage.Master</DependentUpon>
