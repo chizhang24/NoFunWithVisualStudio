@@ -1,7 +1,7 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FirstMasterPage.master.cs" Inherits="NoFunWithVisualStudio.MasterPages.FirstMasterPage" %>
 
 <!DOCTYPE html>
-<link href="../Styles/FirstStyles.css" rel="stylesheet" />
+<%--<link href="../Styles/FirstStyles.css" rel="stylesheet" />--%>
 <html>
 <head runat="server">
     <title></title>
