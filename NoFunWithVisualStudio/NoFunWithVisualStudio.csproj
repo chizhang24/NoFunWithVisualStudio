@@ -202,6 +202,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="Styles\FirstStyles.css" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -291,7 +292,6 @@
     <Folder Include="Controls\" />
     <Folder Include="Images\" />
     <Folder Include="Multimedia\" />
-    <Folder Include="Styles\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

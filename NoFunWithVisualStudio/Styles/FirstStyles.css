@@ -1,0 +1,148 @@
+﻿/*
+FirstStyles.css
+This is the first style sheet for the MyFourthASPSite project.
+
+Created by: Chi Zhang
+Date Created: 3/31/2024
+Last Modified by: Chi Zhang
+Date Last Modified: 4/1/2024
+Part of: A590 WEB Homework Project 1
+*/
+
+
+
+
+#Header
+{
+    background-color: #C0C0C0;
+    width: 844px;
+    height: 83px;
+}
+
+
+*
+{
+    font-family: Arial;
+}
+
+
+
+
+#IntroText {
+    font-weight: bold;
+}
+
+
+
+
+
+h1 {
+    font-size: 20px;
+}
+
+
+/*Defined .Greened subclass to make text in h1 green*/
+.Greened
+{
+    color: green;
+}
+
+
+
+
+
+p 
+{
+    font-style: italic;
+}
+.RightAligned
+{
+    text-align: right;
+}
+
+table {
+    width: 200px;
+    height: 100px
+}
+
+/*Defined .Highlight subclass to control text in td*/
+td.Highlight
+{
+    font-weight:bold;
+}
+
+
+
+#PageWrapper
+{
+    width: 844px;
+    margin: 0 auto;
+}
+
+
+#MenuWrapper
+{
+    width: 844px;
+}
+
+
+
+#MainMenu
+{
+    background-color: #C0C0C0;
+    width: 844px;
+    float: left;
+}
+
+
+#MainContent
+{
+    width: 644px;
+    float: left;
+}
+
+
+
+#Sidebar
+{
+    background-color: gray;
+    width: 200px;
+    float: left;
+}
+
+
+#Footer
+{
+    background-color: #C0C0C0;
+    width: 844px;
+    clear: both;
+}
+
+
+
+/* The following code contains subclasses of id Footer, they are bold, italic and type text, changing the font in footer*/
+#Footer p
+{
+    text-align: center;
+    font-size: 12px;
+}
+
+#Footer p.Highlight
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+#Footer p.Emphasize
+{
+    font-size: 12px;
+    font-style: italic;
+}
+
+#Footer p.TypeText
+{
+    font-size: 12px;
+    font-family: Courier New;
+}
