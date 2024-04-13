@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Welcome to No Fun with Visual Studio!" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="NoFunWithVisualStudio._Default" %>
+﻿<%@ Page Title="Welcome to No Fun with Visual Studio!" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="OLD_Default.aspx.cs" Inherits="NoFunWithVisualStudio._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
