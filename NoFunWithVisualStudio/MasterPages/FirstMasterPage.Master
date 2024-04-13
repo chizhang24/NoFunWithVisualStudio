@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FirstMasterPage.master.cs" Inherits="NoFunWithVisualStudio.MasterPages.FirstMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="PageWrapper">
+            <div id="Header"><a class="HeaderLink" runat="server">Header Goes Here</a></div>
+            <div id="MenuWrapper">Menu Goes Here</div>
+            <div id="MainContent">
+            <asp:ContentPlaceHolder ID="cpMainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
