@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="~/" title="Home"  description="Home">
+		<siteMapNode url="~/Default.aspx" title="Home"  description="Go To The HomePage" >
+		</siteMapNode>
+		<siteMapNode url="~/ContentPages/ContentPages.aspx" title="Content"  description="My 
+Pages" >
+			<siteMapNode url="~/ContentPages/MyCalendar.aspx" title="My Calendar Page"
+			description="A Calendar combined with some other controls" />
+			<siteMapNode url="~/ContentPages/MyCalculator.aspx" title="My First Calculator"
+			description="Simple Calculator that uses in-page code" />
+			<siteMapNode url="~/ContentPages/MySecondCalculator.aspx" title="My Second 
+Calculator"  description="Simple Calculator that is based on a Custom Class" />
+			<siteMapNode url="~/ContentPages/TemplateTEST.aspx" title="My First Template-based 
+Page"  description="A page based on a Template I created" />
+		</siteMapNode>
+		<siteMapNode url="~/ContentPages/Login.aspx" title="Login"  description="Login to Fun 
+With Visual Studio" >
+		</siteMapNode>
+	</siteMapNode>
+</siteMap>
