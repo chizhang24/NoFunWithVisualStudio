@@ -1,19 +1,26 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FirstMasterPage.master.cs" Inherits="NoFunWithVisualStudio.MasterPages.FirstMasterPage" %>
 
 <!DOCTYPE html>
-<%--<link href="../Styles/FirstStyles.css" rel="stylesheet" />--%>
-<html>
+
+<html lang="en">
 <head runat="server">
-    <title></title>
+    <title><%:Page.Title %></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <link href="../Styles/FirstStyles.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
         <div id="PageWrapper">
             <div id="Header"><a class="HeaderLink" runat="server">Header Goes Here</a></div>
             <div id="MenuWrapper">
-                <asp:Menu runat="server" ID="MainSiteMenu" CssClass="MainMenu" DataSourceID="SiteMapDataSource1" Orientation="Horizontal"></asp:Menu>
+                <asp:Menu runat="server" ID="MainSiteMenu" CssClass="MainMenu" DataSourceID="SiteMapDataSource1" Orientation="Horizontal">
+                    <DynamicHoverStyle CssClass="DynamicHoverStyle" /> 
+                    <DynamicMenuItemStyle CssClass="DynamicMenuStyle" /> 
+                    <StaticHoverStyle CssClass="StaticHoverStyle" /> 
+                    <StaticMenuItemStyle CssClass="StaticMenuItemStyle" ItemSpacing="10px"/> 
+                    <StaticSelectedStyle CssClass="StaticSelectedStyle" /> 
+                </asp:Menu>
                 <asp:SiteMapDataSource runat="server" ID="SiteMapDataSource1" ShowStartingNode="False"></asp:SiteMapDataSource>  
             </div>
             <div id="MainContent">
@@ -22,5 +29,9 @@
             </div>
         </div>
     </form>
+
+    <footer>
+        <p>&copy; <%DateTime.Now.Year %>No Fun with Visual Studio. All rights reserved.</p>
+    </footer>
 </body>
 </html>

@@ -125,7 +125,7 @@
     <Content Include="App_Themes\BlueAndYellow\BlueAndYellow.css" />
     <Content Include="Contact.aspx" />
     <Content Include="ContentPages\Login.aspx" />
-    <Content Include="ContentPages\MyCalculator.aspx" />
+    <Content Include="ContentPages\OLDMyCalculator.aspx" />
     <Content Include="ContentPages\MyCalendar.aspx" />
     <Content Include="ContentPages\MySecondCalculator.aspx" />
     <Content Include="ContentPages\TemplateTest.aspx" />
@@ -242,12 +242,12 @@
     <Compile Include="ContentPages\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ContentPages\MyCalculator.aspx.cs">
-      <DependentUpon>MyCalculator.aspx</DependentUpon>
+    <Compile Include="ContentPages\OLDMyCalculator.aspx.cs">
+      <DependentUpon>OLDMyCalculator.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ContentPages\MyCalculator.aspx.designer.cs">
-      <DependentUpon>MyCalculator.aspx</DependentUpon>
+    <Compile Include="ContentPages\OLDMyCalculator.aspx.designer.cs">
+      <DependentUpon>OLDMyCalculator.aspx</DependentUpon>
     </Compile>
     <Compile Include="ContentPages\MyCalendar.aspx.cs">
       <DependentUpon>MyCalendar.aspx</DependentUpon>

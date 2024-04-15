@@ -95,6 +95,15 @@ td.Highlight
 }
 
 
+.MainMenu
+{
+    border: 1px solid white;
+    width: 635px;
+    height: 19px;
+    background-color : #cccccc;
+}
+
+
 #MainContent
 {
     width: 644px;
@@ -146,3 +155,34 @@ td.Highlight
     font-size: 12px;
     font-family: Courier New;
 }
+
+
+
+
+.StaticMenuItemStyle, .StaticMenuItemStyle a {
+    color: #707070;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 2px;
+}
+
+.StaticHoverStyle, .StaticSelectedStyle {
+    background-color: #c1e4ce;
+}
+
+.DynamicMenuItemStyle {
+    color: #707070;
+    font-size: 14px;
+    background-color: #cccccc;
+    padding: 4px 2px 4px 3px;
+}
+
+.DynamicHoverStyle {
+    background-color: #707070;
+    color: White;
+}
+
+    .DynamicHoverStyle a {
+        text-decoration: none;
+    }

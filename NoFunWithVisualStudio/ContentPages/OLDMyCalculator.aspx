@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MyCalculator.aspx.cs" Inherits="NoFunWithVisualStudio.ContentPages.MyCalculator" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="OLDMyCalculator.aspx.cs" Inherits="NoFunWithVisualStudio.ContentPages.MyCalculator" %>
 
 <!DOCTYPE html>
 
