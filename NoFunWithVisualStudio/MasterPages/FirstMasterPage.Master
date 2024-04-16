@@ -7,12 +7,20 @@
     <title><%:Page.Title %></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <link href="../Styles/FirstStyles.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
+        <header>
+            <div style="float: right;">
+                <button id="LoginButton">
+                    Login
+                </button>
+            </div>
+        </header>
+
+
         <div id="PageWrapper">
-            <div id="Header"><a class="HeaderLink" runat="server">Header Goes Here</a></div>
+           
             <div id="MenuWrapper">
                 <asp:Menu runat="server" ID="MainSiteMenu" CssClass="MainMenu" DataSourceID="SiteMapDataSource1" Orientation="Horizontal">
                     <DynamicHoverStyle CssClass="DynamicHoverStyle" /> 
@@ -27,11 +35,18 @@
             <asp:ContentPlaceHolder ID="cpMainContent" runat="server">
             </asp:ContentPlaceHolder>
             </div>
+           
+
+
+
+        
+      <footer>
+        <p>&copy; <%: DateTime.Now.Year %> No Fun with Visual Studio. All rights reserved.</p>
+      </footer>
         </div>
+       
     </form>
 
-    <footer>
-        <p>&copy; <%DateTime.Now.Year %>No Fun with Visual Studio. All rights reserved.</p>
-    </footer>
 </body>
+
 </html>

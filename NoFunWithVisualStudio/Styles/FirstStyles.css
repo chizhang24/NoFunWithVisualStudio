@@ -12,11 +12,15 @@ Part of: A590 WEB Homework Project 1
 
 
 
-#Header
-{
-    background-color: #C0C0C0;
+#Header {
+    background-color: #007acc;
     width: 844px;
     height: 83px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
 }
 
 
@@ -98,7 +102,8 @@ td.Highlight
 #MainContent
 {
     width: 644px;
-    float: left;
+    float: center;
+    padding: 20px;
 }
 
 
@@ -116,6 +121,9 @@ td.Highlight
     background-color: #C0C0C0;
     width: 844px;
     clear: both;
+    display: flex;
+    justify-content:center;
+    padding: 10px 0;
 }
 
 
